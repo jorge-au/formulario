@@ -1,53 +1,113 @@
-.container{
-	margin: 50px auto;
-	/* background-color: grey; */
-	height: auto;
-	width: 400px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
 
-.form{
-	background-color: rgb(124, 124, 184);
-	width: 100%;
+body{
+	background-color: #2E0BDB;
+}
+.contenedor{
+	margin: 50px auto;
+	box-sizing: border-box;
+	width: 550px;
+	background-color:#E6E9FA;
 	height: auto;
-	margin: auto;
-	border: 2px solid black;
 	border-radius: 5px;
-	
+	border: 2px solid black;
+
 }
 h1{
 	text-align: center;
+	font-size: 1.5rem;
+	margin: 30px;
+	font-family: 'Roboto', sans-serif;
+	color:#36373B;
+	font-weight: 500;
+	
+}
+.form{
+	display: block;
+	margin: 10px auto;	
+	
 }
 
-.form_label{
-	display: block;
+.label{
 	font-size: 1.2rem;
-	font-family: sans-serif;
-	margin: 10px auto;
+	margin: 20px 70px;
+	font-family: 'Roboto', sans-serif;
+	color:#36373B;
 }
-.form_input{
-	width: 80%;
-	height: 25px;
+
+.input{
+	border: 1px solid black;
+	border-radius: 3px;
+	height: 30px;
+	width:75%;
+	margin: 8px 70px;
+}
+/* seccion turno */
+.input_radio{
+	margin-left: 80px;
+	color: #000080;
+}
+.label_turno{
+	font-size: 20px;
+	color: #36373B;
+}
+
+/* seccion de cursos */
+.input_checkbox{
+	margin-left: 80px;
+	color: #000080;
+}
+.label_curso{
+	font-size: 20px;
+	color: #36373B;
+}
+
+/* seccion de pago */
+.select{
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	height: 30px;
 	border-radius: 5px;
-	border: 2px solid black;
+	font-size: 1rem;
 }
-.form_label_turno{
-	font-size: 1.2rem;
-	margin-left: 20px;
+.select option{
+	text-align: center;
+	font-size: 1rem;
 }
-.form_label_subtitulo{
-	font-size: 1.2rem;
-	display: block;
-	margin-left: 20px;
-	margin-bottom: 10px;
+
+/* seccion area */
+.txt_area{
+	width: 75%;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 10px 50px;	
 }
-.boton{
-	display: block;
-	margin: 20px auto;
+
+
+p{
 	font-size: 1.2rem;
-	padding: 5px 10px;
+	text-align: center;
+	margin-top: 0;
+	color: #2E0BDB;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}
+/* boton enviar */
+.btn{
+	font-size: 18px;
+	width: 40%;
 	border-radius: 5px;
 	border: 1px solid black;
-	background-color: lightblue;
-	cursor: pointer;
-
+	margin-left: 160px;
+	margin-bottom: 20px;
+	padding: 10px 0;
+}
+.btn:hover{
+	background-color: #5012F5;
+	color:blanchedalmond
 }

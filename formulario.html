@@ -5,30 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Formulario de Inscripcion</h1>
-    <form class="form" action="">
-        <!-- datos -->
-        <label class="form_label" for="">Nombre:</label>
-        <input class="form_input" type="text" id="nombre" name="nombre">
-        <label class="form_label" for="">Apellido:</label>
-        <input class="form_input" type="text">
-        <label class="form_label" for="">Email:</label>
-        <input class="form_input" type="email">
-        <!-- Turno -->
-        <label class="form_label_subtitulo" for="">Seleccione un Turno</label>
-        <label class="form_label_turno" for="">Manana</label>
-        <input class="form_input_radio" type="radio" id="turnoM" name="turno" value="manana">
-        <label class="form_label_turno" for="">Tarde</label>
-        <input class="form_input_radio" type="radio" id="turnoT" name="turno" value="tarde">
-        <label class="form_label_turno" for="">Noche</label>
-        <input class="form_input_radio" type="radio" id="turnoN" name="turno" value="noche">
-        <input class="boton" type="submit">
-    </form> 
+    <div class="contenedor">
+       
+        <form class="form" action="">
+            <h1 class="titulo_principal">Formulario de Inscripción</h1>
+            <label class="label" for="">Nombre Completo</label>
+            <input class="input" type="text">
+            <label class="label" for="">Email</label>
+            <input class="input" type="email">
+            <label class="label" for="">Teléfono</label>
+            <input class="input" type="text">
+
+            <!-- SECCION TURNO -->
+            <label for="" class="label">Seleccione un Turno</label><br><br>
+            <input type="radio" class="input_radio">
+            <label for="" class="label_turno">Manana</label><br>
+            <input type="radio" class="input_radio">
+            <label for="" class="label_turno">Tarde</label><br>
+            <input type="radio" class="input_radio">
+            <label for="" class="label_turno">Noche</label><br><br>
+
+            <!-- SECCION CURSOS -->
+            <label for="" class="label">Seleccione los Cursos</label><br><br>
+            <input type="checkbox" class="input_checkbox">
+            <label for="" class="label_curso">Html</label><br>
+            <input type="checkbox" class="input_checkbox">
+            <label for="" class="label_curso">Css</label><br>
+            <input type="checkbox" class="input_checkbox">
+            <label for="" class="label_curso">JavaScript</label><br>
+            <input type="checkbox" class="input_checkbox">
+            <label for="" class="label_curso">Wordpress</label><br><br>
+
+            <!-- SECCION PAGO -->
+            <label for="" class="label">Seleccione Forma de Pago</label>
+            <select name="" id="" class="select">
+                <option value="">Efectivo</option>
+                <option value="">Tarjeta de Crédito</option>
+                <option value="">Transferencia</option>
+            </select>
+           
+
+           <label for="" class="label">Comentarios</label><br>
+            <textarea class="txt_area" name="" id="" cols="30" rows="10" placeholder="Escriba aquí..."></textarea>
+            <p><a href="#">Terminos y Condiciones</a></p>
+            <input class="btn" type="submit">
+            
+        </form>
     </div>
-    
 </body>
 </html>
