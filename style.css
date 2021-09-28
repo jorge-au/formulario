@@ -1,0 +1,26 @@
+.container{
+	margin: 50px auto;
+	background-color: grey;
+	height: auto;
+	width: 600xp;
+}
+h1{
+	text-align: center;
+}
+
+.form_label{
+	display: block;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	margin: 10px;
+	text-align: left;
+}
+.tuno{
+	display: inline;
+}
+.form_input{
+	width: 220px;
+	height: 25px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
