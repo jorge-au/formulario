@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
 
 body{
-	background-color: #2E0BDB;
+	background-color: #3333ff;
 }
 .contenedor{
 	margin: 50px auto;
@@ -83,7 +83,7 @@ h1{
 	width: 75%;
 	border: 1px solid black;
 	border-radius: 3px;
-	margin: 10px 50px;	
+	margin: 10px 70px;	
 }
 
 
@@ -96,6 +96,10 @@ p{
 }
 a{
 	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	
 }
 /* boton enviar */
 .btn{
